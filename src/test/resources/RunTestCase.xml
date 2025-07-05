@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="First Test">
+        <classes>
+            <class name="BT.BT3">
+                <methods>
+<!--                    <include name="testCreateNewCategory"></include>-->
+                    <include name="testEditCategory"></include>
+                </methods>
+            </class>
+            <class name="BT.BT4">
+                <methods>
+                    <include name="testCreateProduct"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
